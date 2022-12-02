@@ -11,13 +11,15 @@ possibleChoices.forEach((possibleChoice) =>
   possibleChoice.addEventListener("click", (e) => {
     userChoice = e.target.id;
     userChoiceDisplay.innerHTML = userChoice;
+    // innerText 해도 됨
     generateComputerChoice();
     getResult();
   })
 );
 
 function generateComputerChoice() {
-  const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1; //3
+  const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
+  // possibleChoices.length = 3
   console.log(randomNumber);
 
   //   switch문 등으로 바꿔보기

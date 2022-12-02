@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //1
+      let test = 10;
+      console.log(test);
+
+      //2
+      let testFunction = "hello sparta!";
+      console.log(testFunction);
+
+      //3
+      for (i = 0; i <= 30; i++) {
+        if (i % 2 === 0) {
+          console.log(i);
+        }
+      }
+
+      // 4(=3)
+      let i = 0;
+      let number = [];
+      while (i <= 30) {
+        if (i % 2 === 0) {
+          number.push(i);
+        }
+        i++;
+      }
+      console.log(number);
+
+      // while 이렇게 풀 수 있음!
+      let i = 0;
+      while (i <= 30) {
+        if (i % 2 === 0);
+        console.log(i);
+        i += 2;
+      }
+      // console을 찍고 더해라라서 순서가 저렇게 됨
+
+      //5(=3)
+      for (i = 0; i <= 30; i++) {
+        if (i % 2 === 0) {
+          i = String(i);
+          console.log(i);
+        }
+      }
+
+      //6
+      let array = [3, 10, 2, 5, 6, 7, 23, 53, 22, 90];
+      const result = array.filter((x) => x % 2 === 0);
+      console.log(result);
+
+      //8
+      const person = {
+        name: "yunny",
+        age: 30,
+        address: "heaven",
+      };
+
+      //9(+8)
+      for (const p in person) {
+        console.log(p, person[p]);
+      }
+    </script>
+  </body>
+</html>
