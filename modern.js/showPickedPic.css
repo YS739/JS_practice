@@ -1,0 +1,17 @@
+p {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#mainPic {
+  width: 600px;
+  height: 400px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
