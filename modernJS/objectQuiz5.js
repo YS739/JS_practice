@@ -6,8 +6,9 @@ let menu = {
   title: "My menu",
 };
 
-console.log(menu["width"]);
+// console.log(menu["width"]);
 
+// 시도
 // const multiplyNumeric = (obj) => {
 //   for (key in obj) {
 //     if (typeof obj["key"] === Number) {
